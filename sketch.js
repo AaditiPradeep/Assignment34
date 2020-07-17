@@ -4,7 +4,7 @@ var curentPath = [];
 
 
 function setup(){
-    canvas = createCanvas(displayWidth-20,displayHeight-20);
+    canvas = createCanvas(600,600);
     canvas.mousePressed(startPath);
     database = firebase.database();
     
